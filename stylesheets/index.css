@@ -5,3 +5,15 @@ These are the styles for the whole document
 .main-title { 
     background: red;
 }
+
+.fancy-fonts, 
+.navbar,
+.thing,
+.other-thing
+{
+    font-family: 'Roboto', sans-serif;
+    /* "hex" or hexidecimal colors */
+    /* color: #ff0000; */
+
+    color: rgb(51, 96, 126); 
+}
