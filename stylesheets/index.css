@@ -12,14 +12,40 @@ These are the styles for the whole document
     margin: 0;
 }
 
-.fancy-fonts, 
-.navbar,
-.thing,
-.other-thing
-{
+.fancy-fonts, .navbar {
     font-family: 'Roboto', sans-serif;
     /* "hex" or hexidecimal colors */
     /* color: #ff0000; */
 
     color: rgb(51, 96, 126); 
+
+
+}
+
+.navbar ul {
+    padding-left: 0;
+
+}
+
+
+/* Always read selectors from right to left */
+.navbar li {
+    color: green;
+    list-style: none;
+}
+
+.main-image {
+    width: 140px;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.hero-image {
+    background-image: url(../img/mountain.jpg);
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
